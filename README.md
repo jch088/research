@@ -37,3 +37,26 @@ for i in range(1,num + 1):
 factorial = factorial*i
 print("The factorial of",num,"is",factorial)
 
+# Find the LCM of two input numbers
+
+def compute_lcm(x,y):
+
+# choose the greater number
+if x > y:
+greater = x
+else:
+greater = y
+
+while(True):
+if((greater % x == 0) and (greater % y == 0)):
+lcm = greater
+break
+greater += 1
+
+return 1cm
+
+num1 = 54
+num2 = 24
+
+print("The L.C.M. is", compute_lcm(num1, num2))
+
