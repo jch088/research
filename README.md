@@ -60,3 +60,16 @@ num2 = 24
 
 print("The L.C.M. is", compute_lcm(num1, num2))
 
+
+# Calculate power of a number using a while loop
+
+base = 3
+exponent = 4
+
+result = 1
+
+while exponent != 0:
+result *= base
+exponent-=1
+
+print("Answer = " + str(result))
